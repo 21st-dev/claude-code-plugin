@@ -8,6 +8,6 @@
   },
   "homepage": "https://21st.dev",
   "keywords": ["react", "shadcn", "ui", "components", "mcp", "frontend", "cli"],
-  "skills": ["${CLAUDE_PLUGIN_ROOT}/skills/21st-cli"],
-  "mcpServers": "${CLAUDE_PLUGIN_ROOT}/.mcp.json"
+  "repository": "https://github.com/21st-dev/claude-code-plugin",
+  "license": "MIT"
 }
