@@ -1,0 +1,13 @@
+{
+  "name": "21st",
+  "description": "Search, install and publish React/shadcn components, themes and templates on 21st.dev from your agent. Bundles the 21st-cli skill (search/get/add/publish/generate/themes/templates/bookmarks/teams) and wires up the remote 21st MCP server in one install.",
+  "version": "0.2.0",
+  "author": {
+    "name": "21st.dev",
+    "url": "https://21st.dev"
+  },
+  "homepage": "https://21st.dev",
+  "keywords": ["react", "shadcn", "ui", "components", "mcp", "frontend", "cli"],
+  "skills": ["${CLAUDE_PLUGIN_ROOT}/skills/21st-cli"],
+  "mcpServers": "${CLAUDE_PLUGIN_ROOT}/.mcp.json"
+}
